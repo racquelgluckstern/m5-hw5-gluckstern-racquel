@@ -39,7 +39,7 @@ body {
 }
 
 .hero {
-  background-image: url("mountains.jpg") alt="black and white mountains";
+  background-image: url("mountains.jpg");
   background-size: cover;
   background-position: center;
   height: 600px;
