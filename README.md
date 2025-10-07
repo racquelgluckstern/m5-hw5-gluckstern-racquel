@@ -38,8 +38,8 @@
 
 
 ## Issue 8: incorrect heading hierarchy
-- **Problem:** The heading structure was skipped or out of order. You had an <h3> but possibly no <h2> above it, which confuses screen readers. 
-- **Fix:** Changed to <h2> to maintain proper heading hierarchy <h2>Reach out for a quote today!</h2>
+- **Problem:** The heading structure was out of order,  `<h3>` skipping h2
+- **Fix:** Changed to `<h2>` to maintain proper heading hierarchy <h2>Reach out for a quote today!</h2>
 
 
 <!-- section -->
@@ -71,7 +71,8 @@
 - **Fix:** altered to #ffffff better visibility
 ## Issue 13: incorrect semantics
 - **Problem:** The footer content was placed inside a <div>, not a landmark so no meaning to assistive technologies
-- **Fix:** Replaced <div> with <footer> and added aria-hidden="true" to the decorative iconso screen readers won’t redundantly read icon as “telephone emoji” <footer class="footer">
+- **Fix:** Replaced <div> with <footer> and added aria-hidden="true" to the decorative iconso screen readers won’t redundantly read icon as “telephone emoji” 
+<footer class="footer">
   <span class="icon" aria-hidden="true">📞</span>
   <span>Call me anytime!</span>
 </footer>
